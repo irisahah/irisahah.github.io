@@ -1,19 +1,20 @@
 h1 {
     color: blueviolet;
- }
+}
 
 h2  { 
-
+    color:magenta; 
 }
+
 p { 
     color: chartreuse;
- }
+}
 
 .extraSpace{ 
     color: rgb(237, 194, 163);
     background: #1e1653;
-    height:auto
-    width:
+    height: auto;
+    width: 150px;
 }
 
 #newColor{ 
@@ -28,4 +29,35 @@ p {
     padding-left: 50px;
     margin: 20px;
     border: 1px solid;
- }
+}
+
+.secondDiv {
+    min-width: 200px;
+    background-color: cornflowerblue;
+}
+
+.testZ {
+    height: 50px;
+    width: 50px;
+}
+
+.divpos1 {
+    position: static;
+}
+
+.divpos2 {
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    z-index: -9;
+}
+
+.banner {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px;
+
+}
