@@ -1,1 +1,18 @@
-Homework Lesson 2
+<!DOCTYPE HTML >
+<HTML lang="en">
+   <HEAD>
+      <TITLE>Homework based on Lesson 2</TITLE>
+   </HEAD>
+   <BODY>
+    <form>
+        <label>Only Text</label>
+        <input type="text"><br>
+        <label>Only Numbers</label>
+        <input type="number"><br>
+        <label>Password</label>
+        <input type="password">
+        <input type="submit">
+    </form>
+
+   </BODY>
+</HTML>
