@@ -1,0 +1,31 @@
+h1 {
+    color: blueviolet;
+ }
+
+h2  { 
+
+}
+p { 
+    color: chartreuse;
+ }
+
+.extraSpace{ 
+    color: rgb(237, 194, 163);
+    background: #1e1653;
+    height:auto
+    width:
+}
+
+#newColor{ 
+    text-transform: lowercase;
+}
+
+.firstDiv{
+    height: 150px;
+    width: 150px;
+    background-color: deeppink;
+    padding: 30px;
+    padding-left: 50px;
+    margin: 20px;
+    border: 1px solid;
+ }
