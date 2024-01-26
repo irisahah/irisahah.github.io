@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    background-color: aquamarine;
+}
+
+.container > div:nth-child(n) {
+    background-color: crimson;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.contwrap {
+    flex-wrap: wrap;
+}
+
+.contdir {
+
+}
