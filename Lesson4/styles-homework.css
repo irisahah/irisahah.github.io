@@ -1,7 +1,12 @@
-div {
+.container {
+    display: flex;
     background-color: aquamarine;
 }
 
-.container {
-    display: flex;
+.container > div {
+    background-color: crimson;
+}
+
+.container > div:nth-child(1){
+    background-color: crimson;
 }
