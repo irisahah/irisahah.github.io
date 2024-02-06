@@ -1,3 +1,30 @@
+// KODUTÖÖ 6.02: 
+// teha loop 1 -> 10 mis liidab kokku arv1 + iteratsiooniga. ja printida seda consooli ilusti
+// ehk tehe saab konsoolis näha koos vastusega
+
+
+let arv1 = 60;
+
+for(let i = 1; i <= 10; i++) {
+    console.log(arv1 + " + " + i + " = " + (arv1 + i));
+}
+
+
+
+console.log("********");
+
+for(let i = 100; i > 90; i--) {
+    if(i == 95) {
+        continue;
+    }
+    console.log("i = " + i);
+}
+
+console.log("********");
+
+
+// LESSON 6:
+
 console.log("Tere!")
 
 console.log("Minu nimi on...")
@@ -48,7 +75,7 @@ Lisa
     10 - 1
     11 - 1
 && jah
-    üks vastustused peavad olema JAH
+    KÕIK vastustused peavad olema JAH
     00 - 0
     01 - 0
     10 - 0
