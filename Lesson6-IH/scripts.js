@@ -4,11 +4,18 @@
 
 
 let arv1 = 60;
-
 for(let i = 1; i <= 10; i++) {
     console.log(arv1 + " + " + i + " = " + (arv1 + i));
 }
 
+// või sama tulemuse saab:
+
+console.log("********");
+
+for(let i = 1; i <= 10; i++) {
+    let arv1 = 60;
+    console.log(arv1 + " + " + i + " = " + (arv1 + i));
+}
 
 
 console.log("********");
